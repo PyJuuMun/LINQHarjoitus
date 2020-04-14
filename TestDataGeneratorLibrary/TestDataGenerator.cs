@@ -102,5 +102,19 @@ namespace TestDataGeneratorLibrary
             return people;
         }
 
+        //Oma koodi alkaa täältä
+
+        public void PrintPerson(Person person)
+        {
+            Console.WriteLine($"{person.firstName} {person.lastName}, {person.age}, {person.sex}");
+        }
+
+        public void PrintPeople(List<Person> people)
+        {
+            foreach (var person in people)
+            {
+                
+            }
+        }
     }
 }
